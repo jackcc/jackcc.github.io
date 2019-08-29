@@ -24,7 +24,7 @@ tags:								#标签
 
 ```
 
-2. 修改core/models/CornerNet_Squeeze.py(如果使用其他模型，请参考进行修改):
+1. 修改core/models/CornerNet_Squeeze.py(如果使用其他模型，请参考进行修改):
 
 ```python
 
@@ -35,7 +35,7 @@ tags:								#标签
 
 ```
 
-3. 在测试coco数据集时，只测试行人一类，修改代码core/test/cornernet.py的cornernet函数：
+1. 在测试coco数据集时，只测试行人一类，修改代码core/test/cornernet.py的cornernet函数：
 
 ```python 
 
